@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#task-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+#input-box {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    height: 100px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
